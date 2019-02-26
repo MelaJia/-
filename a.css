@@ -1,0 +1,56 @@
+.pic{
+	position: absolute;
+	top: 0;
+	left: 0;
+    border: 2px red solid;
+	width: 400px;
+	height: 80px;
+}
+.leftDiv{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px #333 solid;
+}
+.bigDiv{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	display: flex;
+	width: 969px;
+	margin: 0 auto;
+	border: 1px #333 solid;
+
+}
+.toastDtDiv{
+	display: none;
+	flex-direction: column;
+	padding: 10px;
+	margin-left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        /*width: 200px;*/
+        /*height: 400px;*/
+}
+.toastDtDiv input{
+	margin: 9px 0;
+	border-radius: 2px;
+}
+td{
+	display: flex;
+}
+.tdIp{
+	height: 17px;
+position: relative;
+	margin: 9px 0 4px;
+}
+#modifyDiv{
+display: none;
+}
